@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 13px 30px;
+}
+
+.nav-container-1 {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.nav-container-1 img {
+    width: 200px;
+}
+
+.nav-container-1 ul {
+    display: flex;
+    list-style: none;
+    margin: 5px 0 0 50px;
+}
+
+.nav-container-1 ul li {
+    display: inline-block;
+}
+
+.nav-container-1 ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+    margin-right: 30px;
+}
+
+.nav-container-1 ul li a:hover {
+    opacity: 0.6;
+}
+
+.nav-container-2 {
+    display: flex;
+    align-items: center;
+}
+
+.my-account {
+    color: #039a87;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+
+.my-account:hover {
+    opacity: 0.6;
+}
+
+.ask-for-yours {
+    padding: 10px 20px;
+    background-color: #039a87;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+.ask-for-yours:hover {
+    opacity: 0.6;
+}
+
+.container-up {
+    display: flex;
+    height: 100vh;
+}
+
+.section-one {
+    width: 50%;
+}
+
+.section-one img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    background-color: #01262c;
+    width: 50%;
+}
+
+.article-section-two {
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+}
+
+.article-section-two h1 {
+    font-size: 65px;
+    color: #06ba9f;
+}
+
+.article-section-two spam {
+    color: white;
+}
+
+.article-section-two hr {
+    width: 100%;
+    margin: 30px 0 20px 0;
+    border: 1px solid #039a87;
+}
+
+.paragraph-two, .paragraph-two a {
+    color: #FFF;
+    font-weight: 500;
+}
+
+.submit-menssage-two  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 5px;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #039a87;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.submit-menssage-two:hover {
+    opacity: 0.6;
+}
