@@ -1,148 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br" translate="no">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Europay</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-    <div>
-        <header>
-            <nav>
-                <div class="nav-container-1">
-
-                    <a href="#"><img src="./assets/image/europay.png" alt="logo-europay"></a>
-                    <ul>
-                        <li><a href="#">Maquinetas</a></li>
-                        <li><a href="#">Capital de Giro</a></li>
-                        <li><a href="#">Onde Estamos</a></li>
-                        <li><a href="#">Fale Conosco</a></li>
-                        <li><a href="#">Seja um Distribuidor</a></li>
-                    </ul>
-                </div>
-                <div class="nav-container-2">
-                    <a class="my-account" href="#">Minha Conta</a>
-                    <a class="ask-for-yours" href="#">PEÇA A SUA</a>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <div class="container-up">
-                <section class="section-one">
-                    <img src="./assets/image/fale-conosco.png" alt="image-fale-conosco">
-                </section>
-
-                <section class="section-two">
-                    <article class="article-section-two">
-                        <h1>Atendimento<br> para <spam>Você</spam> e para<br> sua <spam>Empresa</spam>.</h1>
-                        <hr>
-                        <p class="paragraph-two">Central de atendimento ao cliente Europay.<br> <a
-                                href="#">atendimento@europay.com.br</a></p>
-                        <a class="submit-menssage-two" href="#">Enviar Mensagem</a>
-                    </article>
-                </section>
+    <header>
+        <nav>
+            <div class="nav-container-1">
+                <a href="#"><img class="logo-europay" src="./assets/image/europay.png" alt="logo-europay"></a>
+                <ul id="nav-list" class="navlist">
+                    <li><a href="#">Maquinetas</a></li>
+                    <li><a href="#">Capital de Giro</a></li>
+                    <li><a href="#">Onde Estamos</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                    <li><a href="#">Seja um Distribuidor</a></li>
+                </ul>
             </div>
-            <div class="container-mid">
-                <section class="section-mid-one">
-                    <article class="article-mid-one">
-                        <h3>Central de Atendimento</h3>
-                        <div class="cards-article-mid">
-                            <img src="./assets/icons/phone.svg" alt="imagem-phone">
-                            <div class="cards-content">
-                                <p>Ligação gratuita</p>
-                                <spam>0800 00012</spam>
-                            </div>
-                        </div>
-
-                        <div class="cards-article-mid">
-                            <img src="./assets/icons/phone.svg" alt="imagem-phone">
-                            <div class="cards-content">
-                                <p>Atendimento</p>
-                                <spam>11 2100 0102</spam>
-                            </div>
-                        </div>
-
-                        <div class="cards-article-mid">
-                            <img src="./assets/icons/mail.svg" alt="imagem-email">
-                            <div class="cards-content">
-                                <p>Ligação gratuita</p>
-                                <spam>0800 00012</spam>
-                            </div>
-                        </div>
-
-                        <p class="andress">Av. Copacabana, 325, Empresarial 18 do Forte Barueri - São Paulo - 06472-001
-                        </p>
-                    </article>
-                </section>
-
-                <section class="section-mid-two">
-                    <article>
-                        <form class="form" action="" method="get">
-                            <h3>Preencha os dados abaixo <br>para falar com a gente.</h3>
-                            <input type="text" name="Nome" placeholder="Nome" required>
-                            <input type="email" name="Email" placeholder="E-mail" required>
-                            <input type="tel" name="Telefone" placeholder="Telefone Fixo, Celular ou WhatsApp">
-                            <input type="text" name="Assunto" placeholder="Assunto">
-                            <input type="text" name="Financeiro" placeholder="Financeiro">
-                            <textarea>Mensagem</textarea>
-                            <button type="submit">Enviar</button>
-                        </form>
-                    </article>
-                </section>
+            <div class="nav-container-2">
+                <a class="my-account" href="#">Minha Conta</a>
+                <a class="ask-for-yours" href="#">PEÇA A SUA</a>
             </div>
+            <div onclick="showList()" id="img-menu" class="toggle bx bx-menu"></div>
+        </nav>
+    </header>
 
-            <div class="container-down">
-                <section class="section-container-down">
-                    <div>
-                        <div class="social-links-1">
-                            <a class="img-link" href="#"><img class="img" src="./assets/image/ig.png" alt="instagram"><a>
-                            <a class="img-link" href="#"><img class="img" src="./assets/image/tw.png" alt="Twwiter"></a>
-                            <a class="img-link" href="#"><img class="img" src="./assets/image/fb.png" alt="facebook"></a>
-                            <a class="img-link" href="#"><p>Baixe o APP do EUROBANK</p></a>
-                            <a class="img-link" href="#"><img class="bx" src="./assets/image/apple-store.svg" alt="app-store"></a>
-                            <a class="img-link" href="#"><img class="bx-1" src="https://logodownload.org/wp-content/uploads/2019/06/google-play-logo.png " alt="play-store"></a>
+    <main>
+        <div class="container-up">
+            <section class="section-one">
+                <img src="./assets/image/fale-conosco.png" alt="image-fale-conosco">
+            </section>
+
+            <section class="section-two">
+                <article class="article-section-two">
+                    <h1>Atendimento<br> para <spam>Você</spam> e para<br> sua <spam>Empresa</spam>.</h1>
+                    <p class="paragraph-two">Central de atendimento ao cliente Europay.<br> <a
+                            href="#">atendimento@europay.com.br</a></p>
+                    <a class="submit-menssage" href="#">Enviar Mensagem</a>
+                </article>
+            </section>
+        </div>
+
+        <div class="container-mid">
+            <section class="section-mid-one">
+                <article class="article-mid">
+                    <h3>Central de Atendimento</h3>
+                    <div class="cards">
+                        <img src="./assets/icons/phone.svg" alt="imagem-phone">
+                        <div class="cards-content">
+                            <p>Ligação gratuita</p>
+                            <spam>0800 00012</spam>
                         </div>
                     </div>
-                    <div class="social-links-2">
-                        <p class="paragraph">
-                            <a class="link-paragraph" href="#">A Europay</a>
-                            <a class="link-paragraph" href="#">Maquinetas</a>
-                            <a class="link-paragraph" href="#">Capital de Giro</a>
-                            <a class="link-paragraph" href="#">Onde Estamos</a>
-                            <a class="link-paragraph" href="#">Fale Conosco</a>
-                        </p>
 
-                        <p class="paragraph">
-                            <a class="link-paragraph" href="#">Perguntas Fraquentes</a>
-                            <a class="link-paragraph" href="#">Ouvidoria</a>
-                            <a class="link-paragraph" href="#">Tarifas</a>
-                            <a class="link-paragraph" href="#">Controle de Adesão</a>
-                        </p>
-
-                        <p class="paragraph">
-                            <a class="link-paragraph" class="link-paragraph" href="#">Eurobank</a>
-                            <a class="link-paragraph" href="#">Eurofranchising</a>
-                            <a class="link-paragraph" href="#">Euro Benefícios</a>
-                        </p>
+                    <div class="cards">
+                        <img src="./assets/icons/phone.svg" alt="imagem-phone">
+                        <div class="cards-content">
+                            <p>Atendimento</p>
+                            <spam>11 2100 0102</spam>
+                        </div>
                     </div>
-                </section>
-            </div>
 
-            <footer>
-                <p class="p-footer">2021 - Europay - Todos os direitos reservados © - Desenvolvido por: Matheus Santos</p>
-                <p class="p-footer">Termos de uso e Política de Privacidade</p>
-                <p class="p-footer">Segurança no Uso da Internet</p>
-            </footer>
-        </main>
-    </div>
+                    <div class="cards">
+                        <img src="./assets/icons/mail.svg" alt="imagem-email">
+                        <div class="cards-content">
+                            <p>Ligação gratuita</p>
+                            <spam>0800 00012</spam>
+                        </div>
+                    </div>
+
+                    <p class="andress">Av. Copacabana, 325, Empresarial 18 do Forte Barueri - São Paulo - 06472-001
+                    </p>
+                </article>
+            </section>
+
+            <section class="section-mid-two">
+                <article>
+                    <h3>Preencha os dados abaixo para falar com a gente.</h3>
+                    <form class="form" action="" method="get">
+                        <input type="text" name="Nome" placeholder="Nome" required>
+                        <input type="email" name="Email" placeholder="E-mail" required>
+                        <input type="tel" name="Telefone" placeholder="Telefone Fixo, Celular ou WhatsApp">
+                        <input type="text" name="Assunto" placeholder="Assunto">
+                        <input type="text" name="Financeiro" placeholder="Financeiro">
+                        <textarea>Mensagem</textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-down">
+            <section class="section-container-down">
+                <div>
+                    <div class="social-links-1">
+                        <a class="img-link" href="#"><img class="img" src="./assets/image/ig.png" alt="instagram"><a>
+                                <a class="img-link" href="#"><img class="img" src="./assets/image/tw.png"
+                                        alt="Twwiter"></a>
+                                <a class="img-link" href="#"><img class="img" src="./assets/image/fb.png"
+                                        alt="facebook"></a>
+                                <a class="img-link" href="#">
+                                    <p>Baixe o APP do EUROBANK</p>
+                                </a>
+                                <a class="img-link" href="#"><img class="bx" src="./assets/image/apple-store.svg"
+                                        alt="app-store"></a>
+                                <a class="img-link" href="#"><img class="bx-1"
+                                        src="https://logodownload.org/wp-content/uploads/2019/06/google-play-logo.png "
+                                        alt="play-store"></a>
+                    </div>
+                </div>
+                <div class="social-links-2">
+                    <p class="paragraph">
+                        <a class="link-paragraph" href="#">A Europay</a>
+                        <a class="link-paragraph" href="#">Maquinetas</a>
+                        <a class="link-paragraph" href="#">Capital de Giro</a>
+                        <a class="link-paragraph" href="#">Onde Estamos</a>
+                        <a class="link-paragraph" href="#">Fale Conosco</a>
+                    </p>
+
+                    <p class="paragraph">
+                        <a class="link-paragraph" href="#">Perguntas Fraquentes</a>
+                        <a class="link-paragraph" href="#">Ouvidoria</a>
+                        <a class="link-paragraph" href="#">Tarifas</a>
+                        <a class="link-paragraph" href="#">Controle de Adesão</a>
+                    </p>
+
+                    <p class="paragraph">
+                        <a class="link-paragraph" class="link-paragraph" href="#">Eurobank</a>
+                        <a class="link-paragraph" href="#">Eurofranchising</a>
+                        <a class="link-paragraph" href="#">Euro Benefícios</a>
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <div>
+            <div class="footer">
+                <p class="p-footer">2021 - Europay - Todos os direitos reservados ©</p>
+                <p class="p-footer">Desenvolvido por: Matheus Santos</p>
+                <a class="link-footer" href="#">
+                    <p class="p-footer">Termos de uso e Política de Privacidade</p>
+                </a>
+                <a class="link-footer" href="#">
+                    <p class="p-footer">Segurança no Uso da Internet</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/index.js"></script>
 </body>
 
 </html>
