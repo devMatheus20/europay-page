@@ -1,7 +1,7 @@
 
 # Europay  
 
-<img src="./assets/GIF/europay.gif" alt="europay-gif" width="400px">
+<img src="./assets/GIF/europay.gif" alt="europay-gif" width="500px">
 
 
 > Esse é um Site Responsivo feito com a intenção de treinar o HTML5, CSS3 e JavaScript Web.
