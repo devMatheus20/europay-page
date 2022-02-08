@@ -1,7 +1,7 @@
 # Europay  🖩
 
 
-<img src="./assets/GIF/europay.gif">
+<img src="./assets/GIF/europay.gif" alt="europay-gif" width="400px">
 
 
 > Esse é um Site Responsivo feito com a intenção de treinar o HTML5, CSS3 e JavaScript Web.
@@ -14,6 +14,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
+- Media Query
 ## 🤝 Colaboradores
 
 Agradecemos às seguintes pessoas que contribuíram para este projeto:
