@@ -1,4 +1,4 @@
-# Europay  🖩
+# Europay  
 
 
 <img src="./assets/GIF/europay.gif" alt="europay-gif" width="400px">
