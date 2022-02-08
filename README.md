@@ -1,7 +1,7 @@
 # Europay  🖩
 
 
-<img src="./img/calculator.png" width="400px" alt="imagem-calculator">
+<img src="" width="400px" alt="europay-gif">
 
 
 > Essa é uma calculadora simples feita com a intenção de treinar o Display-Grid e o JavaScript Web.

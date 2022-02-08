@@ -53,7 +53,7 @@ nav {
 }
 
 .nav-container-2 {
-    display: flex;
+    display: flex;              
     align-items: center;
 }
 
@@ -203,23 +203,23 @@ nav {
 }
 
 .cards i {
-    width: 75px;
-    height: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 75px!important;
+    height: 75px!important;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
 }
 
 .green {
-    color: #039A87;
+    color: #039A87!important;
 }
 
 .cards-img {
-    padding: 25px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 40px;
-    width: auto;
+    padding: 25px!important;
+    border: 1px solid #ccc!important;
+    border-radius: 4px!important;
+    font-size: 40px !important;
+    width: auto!important;
 }
 
 .cards-content {
