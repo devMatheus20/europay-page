@@ -1,12 +1,12 @@
 # Europay  🖩
 
 
-<img src="" width="400px" alt="europay-gif">
+<img src="./assets/GIF/europay.gif">
 
 
-> Essa é uma calculadora simples feita com a intenção de treinar o Display-Grid e o JavaScript Web.
+> Esse é um Site Responsivo feito com a intenção de treinar o HTML5, CSS3 e JavaScript Web.
 
-Confira a aplicação: <a href="https://devmatheus20.github.io/calculator-grid/"> https://devmatheus20.github.io/calculator-grid/
+Confira a aplicação: <a href="https://devmatheus20.github.io/europay-page/#"> https://devmatheus20.github.io/europay-page/
 
 ## 🚀 Technologies
 Este projeto foi desenvolvido com as seguintes tecnologias:
