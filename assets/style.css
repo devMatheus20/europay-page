@@ -22,7 +22,6 @@ nav {
 
 .nav-container-1 {
     display: flex;
-    align-items: center;
     margin-right: 30px;
 }
 
@@ -33,7 +32,7 @@ nav {
 .navlist {
     display: flex;
     list-style: none;
-    margin: 0 0 0 50px;
+    margin: 10px 0 0 50px;
 }
 
 .navlist li {
@@ -203,11 +202,24 @@ nav {
     box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.56);
 }
 
-.cards img {
+.cards i {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green {
+    color: #039A87;
+}
+
+.cards-img {
     padding: 25px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 40px;
+    width: auto;
 }
 
 .cards-content {
