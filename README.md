@@ -1,11 +1,7 @@
-<<<<<<< HEAD
+
 # Europay  
-=======
-# Europay 
->>>>>>> 76ebb3d71f335799e3d7a5a40b26c62268c9d743
 
-
-<img src="./assets/GIF/europay.gif" alt="europay-gif" width="400px">
+<img src="./assets/GIF/europay.gif" alt="europay-gif" width="500px">
 
 
 > Esse é um Site Responsivo feito com a intenção de treinar o HTML5, CSS3 e JavaScript Web.
